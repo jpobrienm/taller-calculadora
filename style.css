@@ -1,0 +1,97 @@
+
+* {
+    box-sizing: border-box;
+    max-height: fit-content;
+} 
+
+body{
+    background-color:#000000;
+    color: #EEEEEE;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.MyButton{
+    background-color: chocolate;
+    text-align: center;
+    width: 10%;
+    border-radius: 15%;
+    padding: 20px 60px;
+}
+
+.parent_wrapper{
+    display: grid;
+    width: 80%;
+    margin: auto;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-gap: 0px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.wrapper_one {
+    display: grid;
+    margin: auto;
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 0px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.wrapper_two{
+    display: grid;
+    width: 100%;
+    margin: left;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 0px;
+    grid-auto-rows: minmax(43px, auto);
+}
+
+header{
+    background-color: #615a64;
+    color: #000000;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 15vh;
+    margin-bottom: 5vh;
+    display: flex;
+    align-items: middle;
+}
+
+input{
+    background-color: #615a64;
+    text-align: right;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    color: antiquewhite;
+    width: 80%;
+    height: 25px;
+    border: none;
+}
+
+button{
+    border: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    background-color: #0d0318;
+    color: antiquewhite;
+}
+
+button:hover{
+    background-color: #fbff00;
+    color: #000000;
+}
+
+button:active{
+    background-color: #f80000;
+}
+
+table{
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div{
+    display: table-cell;
+}

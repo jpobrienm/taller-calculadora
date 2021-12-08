@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="MyCalculatorFunctionality.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Calculadora "Funcional"</h1>
+    </header>
+    <input id="MyInput" disabled="disabled" > 
+    <input id="MyInput2" disabled="disabled" > 
+    <input id="MyInput3" disabled="disabled" > 
+    <div class="parent_wrapper">
+        <div class="wrapper_one">
+            <button onclick="myWriter(1)">1</button>
+            <button onclick="myWriter(2)">2</button>
+            <button onclick="myWriter(3)">3</button>
+            <button onclick="myWriter(4)">4</button>
+            <button onclick="myWriter(5)">5</button>
+            <button onclick="myWriter(6)">6</button>
+            <button onclick="myWriter(7)">7</button>
+            <button onclick="myWriter(8)">8</button>
+            <button onclick="myWriter(9)">9</button>
+        </div>
+        <div class="wrapper_two">
+            <button onclick="myOperationWriter('%')">%</button>
+            <button onclick="myOperationWriter('/')">/</button>
+            <button onclick="myOperationWriter('*')">*</button>
+            <button onclick="myOperationWriter('-')">-</button>
+            <button onclick="myOperationWriter('+')">+</button>
+            <button onclick="myClear()">C</button>
+            <button onclick="compute()">=</button>
+        </div>
+    </div>
+</body>
+</html>
